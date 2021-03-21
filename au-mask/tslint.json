@@ -105,13 +105,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "app",
+      "au",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "app",
+      "au",
       "kebab-case"
     ],
     "no-inputs-metadata-property": true,
