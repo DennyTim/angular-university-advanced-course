@@ -83,7 +83,6 @@ export class AuMaskDirective implements OnInit {
 
     const maskDigit = this.mask.charAt(cursorPos);
     const digitValidator = maskDigitValidators[maskDigit] || neverValidator;
-
     if (digitValidator(key)) {
       overWriteCharAtPosition(this.input, cursorPos, key);
       this.handleRightArrow(cursorPos);
